@@ -98,12 +98,12 @@
   
   }
 
- .quadroPequeno::before{
+ /* .quadroPequeno::before{
     content: "📘";
     position: absolute;
     left: -5px;
     font-size: 30px;
- } 
+ }  */
 
  .quadroPequeno:hover{
     background: white;
@@ -126,10 +126,12 @@ footer{
     top: 100%;
      text-align: center;
     padding: 0;
-    margin: 1px;
+    margin: 3px;
     line-height: 50px;
-    color: rgb(18, 98, 216);
-    background-color: rgb(7, 3, 3);
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 24, 58);
+    width: 100%;
+    
 
    
 }
