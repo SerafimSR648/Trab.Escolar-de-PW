@@ -13,6 +13,7 @@
     background: url('https://img.freepik.com/vetores-gratis/fundo-da-escola-de-design-plano_23-2148587751.jpg?semt=ais_hybrid&w=740') no-repeat;
     background-size: cover;
     background-position: center;
+    
  }
 
  header {
@@ -95,6 +96,7 @@
     position: relative;
     text-align: center;
     transition: .5s;
+   
   
   }
 
@@ -125,11 +127,11 @@ footer{
     position: absolute;
     top: 100%;
      text-align: center;
-    padding: 0;
+    padding: 12px;
     margin: 3px;
     line-height: 50px;
     color: rgb(255, 255, 255);
-    background-color: rgb(13, 24, 58);
+    background-color: #0d183a;
     width: 100%;
     
 

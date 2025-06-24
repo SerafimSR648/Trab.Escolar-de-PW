@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #242424;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+h1{
+    font-weight: 900;
+    color: #000;
+}
+
+h2{
+    font-weight: 900;
+    color: #031346;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    display: block;
+    background-color: #fff;
+}
+
+.container{
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section.modulo p{
+    margin-bottom: 40px;
+}
+
+section.modulo:last-child{
+    margin-bottom: 0;
+}
+
+section.modulo h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.modulo.content{
+    padding: 40px 0;
+    background: #ece7d5;
+}
+
+section.modulo.inicial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+section.modulo.inicial::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    
+}
+
+section.modulo.inicial-1{
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfNIAt24HzLALy9ftWAGODC_LZi6EV3XOSVJjvcgNNT4Ux-sNLsUA9bo5BBJFLyLe06XPO_nwL4wcgvwqOcIb01DnaDNPAYLPLTKUl19GgFec_w7ZB8lEeKmrt9BmZBoZ6XnvaCRq_2fI/s1600/DSC06812.JPG");
+}
+
+section.modulo.inicial h1{
+   color: #000000;
+   text-align: center;
+   font-size: 70px; 
+   z-index: 50;
+   text-transform: uppercase;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid rgb(3, 3, 3);
+}
+
+.foto_Dev{
+    text-align: center;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+    background-color: #0d183a;
+    color: white;
+    text-align: center;
+}
+
